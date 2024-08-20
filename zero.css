@@ -1,0 +1,339 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.swiper2 {
+  width: 100%;
+  height: 10%;
+}
+/* .top-navbar {
+  width: 100%;
+  height: 200px;
+  background-color: #8bc34a;
+} */
+.icons {
+  color: white;
+  padding-top: 50px;
+  margin-right: 300px;
+  display: flex;
+  gap: 60px;
+  font-size: 70px;
+}
+.logo-container {
+  width: 100%;
+  height: 170px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  position: fixed;
+}
+.logo-img {
+  width: 290px;
+  height: 70px;
+  margin-top: 40px;
+}
+.navbar {
+  z-index: 1000;
+  display: flex;
+  width: 100%;
+  height: 170px;
+  margin-top: 20px;
+  justify-content: center;
+  gap: 120px;
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+}
+.navbar li {
+  list-style: none;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+/* Center the swiper on the page */
+.swiper {
+  width: 100%;
+  height:90%;
+  margin: 0 auto; /* Center horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 760px;
+padding-right: 20px;
+}
+
+/* Center the content inside each slide */
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 170px;
+  margin-left: 0px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+/* Responsive design adjustments */
+/* @media (max-width: 768px) {
+  .swiper-slide img {
+    height: auto;
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 480px) {
+  .swiper-slide {
+    font-size: 14px;
+  }
+} */
+
+h2 {
+  margin-top: 50px;
+  margin-left: 90px;
+  font-size: 70px;
+}
+.pl-main {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.pl {
+  width: 900px;
+  height: 1550px;
+  border: 2px solid black;
+  border-radius: 100px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.image {
+  background-color: #e7e0e0;
+  margin-left: 3px;
+  height: 880px;
+  width: 890px;
+  border-radius: 89px;
+}
+img {
+  height: 600px;
+  width: 590px;
+  margin-left: 150px;
+  margin-top: 130px;
+}
+h3 {
+  margin-top: 80px;
+  margin-left: 90px;
+  font-size: 80px;
+}
+p {
+  margin-top: 70px;
+  margin-left: 90px;
+  font-size: 60px;
+  line-height: 100px;
+}
+.footer-top {
+  width: 100%;
+  height: 550px;
+  background-color: #000;
+  margin-top: 250px;
+  display: flex;
+  justify-content: space-around;
+}
+.text {
+  color: white;
+  font-size: 10px;
+  margin-top:80px ;
+}
+.subscribe{
+  width: 450px;
+  height: 170px;
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  border-radius: 0px 30px 30px 0px;
+  margin-top: 195px;
+  font-size: 70px;
+  cursor: pointer;
+}
+input[type="text"]{
+  width: 1400px;
+  height: 180px;
+  font-size: 60px;
+  padding-left: 80px;
+  border: 4px solid white;
+  border-radius: 10px;
+  background-color: #3a3a3a;
+}
+/* .footer-box {
+  width: 39%;
+  height: 200px;
+  border: white 5px solid;
+  background-color: rgb(58, 58, 58);
+  margin-top: 180px;
+  font-size: 50px;
+} */
+input[type="button"] {
+  width: 700px;
+  height: 200px;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  border-radius: 100px;
+  margin: 100px 2000px;
+  font-size: 70px;
+  cursor: pointer;
+}
+h6{
+  margin-top: 80px;
+  margin-left: 90px;
+  font-size: 70px;
+}
+li {
+  list-style: none;
+  font-size: 70px;
+  line-height: 130px;
+}
+.ul-list {
+  margin-left: 130px;
+  margin-top: 50px;
+}
+.footer-middle{
+  display: flex;
+  justify-content: space-evenly;
+}
+.main-social-media {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+.social-img{
+  width: 500px;
+  height: 100px ;
+}
+hr {
+  margin: 10px 40px 0px 40px;
+}
+h1 {
+  margin: 30px 0px 0px 70px;
+  font-size: 90px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.p-Zbuds {
+  font-size: 40px;
+  margin: 10px 0px 0px 50px;
+}
+.colors{
+  display: flex;
+  gap: 30px;
+  padding-left:30px ;
+  padding-top: 20px;
+}
+.color{
+  width:60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.color1{
+  background: rgb(127,127,255);
+background: linear-gradient(309deg, rgba(127,127,255,1) 44%, rgba(255,127,127,1) 52%, rgba(127,127,255,1) 59%);}
+.color2{
+  background-color: #9b4f86;
+}
+.color3{
+  background-color: #87b8b7;
+}
+.color4{
+  background: rgb(234,195,140);
+background: linear-gradient(309deg, rgba(234,195,140,1) 44%, rgba(255,127,127,1) 52%, rgba(234,195,140,1) 59%);
+}
+.color5{
+  background-color: #dddcdc;
+}
+.smartwatches {
+  font-size: 40px;
+  margin: 10px 0px 0px 50px;
+}
+h5 {
+  margin: 20px 0px 0px 50px;
+  font-size: 60px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.box-services {
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  height: 290px;
+  margin: 200px 0px 100px 750px;
+  border: 5px solid black;
+  border-radius: 15px;
+}
+.service {
+  display: flex;
+  justify-content: center;
+}
+.service-image {
+  width: 150px;
+  height: 150px;
+  margin: 60px 10px 0px 5px;
+  background-color: #eeeeee;
+}
+.purple-img {
+  width: 100%;
+  height: 2500px;
+  margin-left: 0px;
+  margin-top: 150px;
+}
+.img-main{
+  display: flex;
+  justify-content: center;
+}
+.shop-h2{
+  text-align: center;
+  font-size: 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ;
+}
+.img-shop-main{
+  display: flex;
+  justify-content: space-between;
+}
+.shop-img{
+  width: 940px;
+  height: 1042px;
+}
+.story-img{
+width: 1000px;
+border-radius: 50px;
+}
+.last-hr{
+  opacity: 0.4;
+  margin: 0px 800px 0px 800px;
+}
+.last{
+  display: flex;
+  justify-content: space-around;
+}
